@@ -51,3 +51,11 @@ $ terraform login
 ```bash
 $ terraform destroy
 ```
+
+# Results
+
+![key-pair](images/key-pair.png)
+
+![security-group](images/security-group.png)
+
+![sg_22](images/sg-22.png)

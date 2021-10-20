@@ -19,7 +19,7 @@ $ terraform apply
 
 Terraform cloud can be used for remote backend as well as running the terraform scripts at cloud.
 
-In this homework exercise, it is setup for remote backend only to store the state. Reason being that the  **<u>own public ip address (myip)</u>** is being dynamically generated in the security group (sg_22) using website http://ipv4.icanhazip.com. If we execute the terraform scripts remotely, **<u>myip</u>** will end up being Terraform Cloud public ip address.
+In this homework exercise, Terraform Cloud is being setup as remote backend only to store the state. The terraform scripts are being executed locally. This is because the  **<u>own public ip address (myip)</u>** is generated dynamically using website http://ipv4.icanhazip.com for use to generate security group (sg_22) resource. If we run the terraform scripts remotely,**<u>myip</u>** will end up being Terraform Cloud's public ip address.
 
 ![terraform cloud](images/terraform-cloud.png)
 
